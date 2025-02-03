@@ -2,14 +2,13 @@
 /* Your CSS Code here. */
 /* Grid Container */
 .holder {
-  display: grid;                      /* Activate CSS Grid */
-  grid-template-columns: repeat(2, 1fr);  /* Create 2 equal columns */
-  grid-template-rows: repeat(2, 1fr);     /* Create 2 equal rows */
-  width: 200px;                       /* Set the width of the grid container to 200px */
-  height: 200px;                      /* Set the height of the grid container to 200px */
-  gap: 10px;                           /* Optional: Adds a small gap between the grid items */
+  display: grid;                      
+  grid-template-columns: repeat(2, 100px);  
+  grid-template-rows: repeat(2, 100px);     
+  width: 200px;                       
+  height: 200px;                      
+  gap: 10px;                           
 }
-
 /* Items in the Grid */
 .item {
   background-color: #f0f0f0;           /* Light background for the items */
